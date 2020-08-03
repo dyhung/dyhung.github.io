@@ -2153,6 +2153,10 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 500px) {
+    .home-content {
+        #vertical-align: bottom;
+        padding-bottom: 12rem;
+    }
     .s-home {
         min-height: 654px;
     }
@@ -2171,7 +2175,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 400px) {
     .home-content {
-        vertical-align: middle;
+        #vertical-align: bottom;
+        padding-bottom: 10rem;
     }
     .home-content h1 {
         font-size: 3.5rem;
