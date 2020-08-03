@@ -3028,6 +3028,9 @@ html.no-csstransitions .home-content__main {
     .stats h4 {
         font-size: 1.4rem;
     }
+    .s-contact {
+        background-size: auto 100%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -3059,6 +3062,7 @@ html.no-csstransitions .home-content__main {
 .s-contact {
     background-color: #151515;
     background-image: url("../images/20190702pic301-grey.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: top, center;
     padding-top: 13.2rem;
