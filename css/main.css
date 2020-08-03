@@ -1767,7 +1767,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background-image: url("../images/20190702pic301.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: top, center;
+    background-position: center, center;
     
 
     display: table-cell;
