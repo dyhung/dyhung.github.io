@@ -280,7 +280,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
-                        <div class="item-folio__thumb">
+                        <div class="item-folio__thumb lazy">
                             <a href="images/portfolio/plus.jpg" class="thumb-link" title="推動大學程式設計教學計畫" data-size="1050x700">
                                 <picture>
                                     <source srcset="images/portfolio/webp/plus.webp" type="image/webp">
@@ -309,7 +309,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
-                        <div class="item-folio__thumb">
+                        <div class="item-folio__thumb lazy">
                             <a href="images/portfolio/usr.png" class="thumb-link" title="Lighthouse" data-size="1050x700">
                                 <picture>
                                     <source srcset="images/portfolio/webp/usr.webp" type="image/webp">
@@ -338,7 +338,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
-                        <div class="item-folio__thumb">
+                        <div class="item-folio__thumb lazy">
                             <a href="images/portfolio/gaba.png" class="thumb-link" data-size="1050x700">
                                 <picture>
                                     <source srcset="images/portfolio/webp/gaba.webp" type="image/webp">
@@ -367,7 +367,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
-                        <div class="item-folio__thumb">
+                        <div class="item-folio__thumb lazy">
                             <a href="images/portfolio/cancer.png" class="thumb-link" data-size="332x532">
                                 <picture>
                                     <source srcset="images/portfolio/webp/cancer.webp" type="image/webp">
@@ -396,7 +396,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
-                        <div class="item-folio__thumb">
+                        <div class="item-folio__thumb lazy">
                             <a href="images/portfolio/uBone.png" class="thumb-link" data-size="1050x700">
                                 <picture>
                                     <source srcset="images/portfolio/webp/uBone.webp" type="image/webp">
@@ -425,7 +425,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
-                        <div class="item-folio__thumb">
+                        <div class="item-folio__thumb lazy">
                             <a href="images/portfolio/iCCIS.png" class="thumb-link" data-size="385x658">
                                 <picture>
                                     <source srcset="images/portfolio/webp/iCCIS.webp" type="image/webp">
@@ -454,7 +454,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
-                        <div class="item-folio__thumb">
+                        <div class="item-folio__thumb lazy">
                             <a href="images/portfolio/tea.png" class="thumb-link" data-size="372x636">
                                 <picture>
                                     <source srcset="images/portfolio/webp/tea.webp" type="image/webp">
@@ -483,7 +483,7 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
-                        <div class="item-folio__thumb">
+                        <div class="item-folio__thumb lazy">
                             <a href="images/portfolio/yo.png" class="thumb-link" data-size="412x673">
                                 <picture>
                                     <source srcset="images/portfolio/webp/yo.webp" type="image/webp">
@@ -893,8 +893,14 @@
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js" async></script>
+    <script type="text/javascript" src="jquery.lazy.min.js" defer></script>
     <script src="js/plugins.js" defer></script>
     <script src="js/main.js" defer></script>
+    <script>
+        $(function() {
+            $('.lazy').Lazy();
+        });
+    </script>
 
 </body>
 
